@@ -106,7 +106,13 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-
+		// Installed packages
+		'Zizaco\Confide\ConfideServiceProvider',
+		'Way\Generators\GeneratorsServiceProvider',
+		'Former\FormerServiceProvider',
+		'TheBeaconLives\LaravelGrunt\LaravelGruntServiceProvider',
+		'Digithis\Activehelper\ActivehelperServiceProvider',
+		'Profiler\ProfilerServiceProvider',
 	),
 
 	/*
@@ -172,7 +178,12 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
-
+		// Installed packages
+		'Ardent'		  => 'LaravelBook\Ardent\Ardent',
+		'Confide'   	  => 'Zizaco\Confide\ConfideFacade',
+		'Former' 		  => 'Former\Facades\Former',
+		'Active'  		  => 'Digithis\Activehelper\ActiveFacade',
+		'Profiler' 		  => 'Profiler\Facades\Profiler',
 	),
 
 );
